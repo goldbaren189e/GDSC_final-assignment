@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  background-color: #282c34;
+}
+
+.App::-webkit-scrollbar{
+  width: 5px;
+}
+
+.App::-webkit-scrollbar-track {
+  background: #C8FFE0;
+}
+
+.App::-webkit-scrollbar-thumb {
+  background: #85E6C5;
+}
+
+
+.LeftSide {
+  background-color: #F0ECE5;
+  border: 4px outset #b6bbc4;
+  justify-content: center;
+  color: black;
+  width: 20vw;
+  padding-bottom: 300%;
+  position: fixed;
+}
+
+.ooghu {
+  width: 100%;
+}
+.RightSide {
+  background-color: #282c34;
+  justify-content: center;
+  color: white;
+  flex-grow: 1;
+  margin-left: 20%;
+}
+
+.about {
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 5vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+  background-color: #B6BBC4;
+  border-radius: 10px;
+  width: 60%;
+  word-break: break-all;
+}
+.aboutclicked {
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 5vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+  background-color: #818FB4;
+  border-radius: 20px;
+  width: 60%;
+}
+
+
+.about:hover {
+  font-weight: 700;
+  background-color: gray;
+}
+.todolist:hover {
+  font-weight: 700;
+  background-color: gray;
+}
+
+.todolist {
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+  background-color: #B6BBC4;
+  border-radius: 10px;
+  width: 60%;
+  word-break: break-all;
+}
+.todolistclicked {
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+  background-color: #818FB4;
+  border-radius: 20px;
+  width: 60%;
+  word-break: break-all;
+}
+
+
+
+.name {
+  font-size: 55px;
+  padding: 7%;
+  padding-bottom: 0;
+  margin-bottom: 7%;
+  text-align: left;
+}
+
+.jung {
+  color: aquamarine;
+}
+
+.slist {
+  text-align: left;
+  padding: 7%;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 16px;
+  line-height: 80%;
+}
+
+.stitle {
+  font-weight: 300;
+  font-size: 18px;
+  color: #E3F4F4;
+  padding-right: 10%;
+}
+
+.hello {
+  margin-top: 5%;
+  padding-top: 3%;
+  line-height: 180%;
+}
+
+
+a {
+  color: #9AD0C2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+.thumbs
+{
+  text-align: center;
+}
+.thumbsup {
+  height: 150px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.thumbsup:hover
+{
+  transition: all 0.1s linear;
+  transform: scale(1.4);
+  overflow: hidden;
+  
+}
+
+.count
+{
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom: 100px;
+}
+
+.todopage {
+  background-color: #282c34;
+  justify-content: center;
+  color: white;
+  flex-grow: 1;
+  margin-left: 20%;
+}
+
+
+
+
+h1 {
+  font-size: 50px;
+  padding: 7%;
+  padding-bottom: 0;
+  margin-bottom: 5%;
+  margin-top: 10%;
+  font-weight: 500;
+}
+.what {
+  justify-content: space-between;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-top: 10%;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  display: flex;
+}
+
+
+input {
+  margin-right: 10px;
+  background: transparent;
+  padding: 10px;
+  flex: 1;
+  border: none;
+}
+
+button {
+  padding: 10px 40px;
+  background-color: #DAFFFB;
+  color: #000000;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+ul li {
+  list-style: none;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  text-align: left;
+  margin: 5px 5%;
+  border-bottom: 1px solid #7e7b7b;
+  font-size: 15px;
+}
+
+
+
+
