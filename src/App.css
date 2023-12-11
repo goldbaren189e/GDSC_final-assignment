@@ -29,7 +29,8 @@
   justify-content: center;
   color: black;
   width: 20vw;
-  padding-bottom: 100%;
+  padding-bottom: 150%;
+  margin-bottom: 0;
   position: fixed;
 }
 
