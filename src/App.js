@@ -56,7 +56,7 @@ function Aboutpage() {
 
 
 function Thumbsup() {
-  var [cnt, setCnt] = useState(Math.floor(Math.random()*100));
+  const [cnt, setCnt] = useState(Math.floor(Math.random()*100));
 
   return (
     <div className='thumbs'>
